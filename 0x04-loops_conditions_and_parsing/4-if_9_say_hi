@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Writing script displaying Best School 10 times and for 9th iteration in condition
+# Same script  displaying Best School and then Hi on a new line
+
+number=0
+while [ $number -le 9 ]
+do
+	echo "Best School"
+	if [ $number -eq 8 ]
+	then
+		echo "Hi"
+	fi
+	((number++))
+done

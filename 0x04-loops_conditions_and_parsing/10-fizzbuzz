@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Writing script displaying numbers from 1 to 100
+# Script displaying FizzBuzz when number is multiple of 3 and 5
+# Script displaying Fizz when number is multiple of 3
+# Script displaying Buzz when number is a multiple of 5
+
+number=1
+while [ $number -lt 101 ]
+do
+    if [ $((number%15)) = 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((number%3)) = 0 ]
+    then
+        echo "Fizz"
+    elif [ $((number%5)) = 0 ]
+    then
+        echo "Buzz"
+    else
+        echo "$number"
+    fi
+    ((number+=1))
+done

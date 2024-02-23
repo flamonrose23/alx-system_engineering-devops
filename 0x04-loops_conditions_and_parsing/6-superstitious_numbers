@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Writing script displaying numbers from 1 to 20
+# same script displaying 4, 9 and 17
+
+number=1
+while [ $number -le 20 ]
+do
+	echo $number
+	case $number in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+	esac
+	((number++))
+done

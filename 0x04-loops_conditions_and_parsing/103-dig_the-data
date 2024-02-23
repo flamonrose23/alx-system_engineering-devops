@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Writing Bash script displaying visi IP with HTTP code
+# The script from Apache log file
+
+awk '{print $1,$9}' apache-access.log  |  sort  |  uniq -c  |  sort -nr

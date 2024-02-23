@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Writing script displaying content of the file /etc/passwd
+# Same script displaying only username, user id & Home direct path
+
+while IFS=: read -r myfile
+do
+	echo "$myfilefile" | cut -d ":" -f 1,3,6
+done < /etc/passwd

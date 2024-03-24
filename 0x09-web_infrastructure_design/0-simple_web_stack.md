@@ -28,4 +28,17 @@ The application server hosts your web application code. It processes dynamic req
 * What is the role of the database:
 It Is a collection of information that is stored and organized so that it can be easily accessed, updated and managed.
 
-* What is the server using to communicate with the computer of the user requesting the website
+* What is the server using to communicate with the computer of the user requesting the website:
+Communication between the client and the server occurs over the internet network through the TCP/IP protocol suite.
+
+## Issues with infrastructure ##
+
+* SPOF:
+It means Single Point of Failure explained that this infrastructure has a single server and if it fails, the website becomes unavailable.
+And to resolve this situation, load balancing shoulb be consideration a solution for this issue.
+
+* Downtime when maintenance needed (like deploying new code web server needs to be restarted):
+When deploying new code for example, users won’t be able to access the site during this period and a load balancer can be the solution also when website goes down.
+
+* Cannot scale if too much incoming traffic:
+The infrastructure cannot handle a lot of traffic especially with one server. So, by adding more servers, load balancing and optimization the database, considering as solutions to keep the server working efficienly and preserving good experience for user surfing on the website. 

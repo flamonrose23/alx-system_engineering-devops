@@ -1,5 +1,6 @@
 Task 1 : Distributed web infrastructure
 
+![622A9A17-8881-4A08-A360-F43C543FEB60_1_105_c](https://github.com/flamonrose23/alx-system_engineering-devops/assets/128868164/33eab26c-a7d1-489a-bbd8-91eabdb187b4)
 
 ## Description ##
 

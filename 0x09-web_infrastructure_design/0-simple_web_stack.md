@@ -1,7 +1,5 @@
 Task 0 : simple web stack
 
-/Users/fatimari/Downloads/Web\ infrastructure\ design\ \#1\ -\ Imgur.jpg </br>
-
 ## Description ##
 It is a design explaining a simple web infrastructure hosting the website that is reachable via www.foobar.com.
 This design of one server explaining the process of user or client wants to access the website or the network in general.

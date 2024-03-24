@@ -1,5 +1,8 @@
 Task 0 : simple web stack
 
+![Web infrastructure design #1 - Imgur](https://github.com/flamonrose23/alx-system_engineering-devops/assets/128868164/0d1c224d-0954-4914-ad6d-9395b12779eb)
+
+
 ## Description ##
 It is a design explaining a simple web infrastructure hosting the website that is reachable via www.foobar.com.
 This design of one server explaining the process of user or client wants to access the website or the network in general.

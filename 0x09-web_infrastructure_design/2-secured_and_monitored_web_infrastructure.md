@@ -1,5 +1,6 @@
 Task 2 : Secured and monitored web infrastructure
 
+![317160E7-8FA9-4219-97EF-66F321DD12A5](https://github.com/flamonrose23/alx-system_engineering-devops/assets/128868164/3a080530-cba2-43c3-a4e8-25273916c62e)
 
 ## Description ##
 

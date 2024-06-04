@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""Task 1"""
+"""
+Writing function of task 1 about Top 10 hot posts
+of subreddit
+"""
 
 
 def top_ten(subreddit):
-    """Queries the Reddit API and returns the top 10 hot posts
-    of the subreddit"""
+    """
+    Printing titles of first top 10 listed for given subreddit
+    """
     import requests
 
     sub_info = requests.get("https://www.reddit.com/r/{}/hot.json?limit=10"
